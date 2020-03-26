@@ -64,7 +64,7 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
-          git clone https://github.com/Ameykyl/luci-app-koolproxyR
+          git clone https://github.com/Leo-Jo/luci-app-koolproxyR.git
 
         
       - name: Generate configuration file
