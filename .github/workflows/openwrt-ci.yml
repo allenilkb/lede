@@ -65,7 +65,7 @@ jobs:
           cd openwrt-packages
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/Ameykyl/luci-app-koolproxyR
-          git clone https://ssh:Y26QeagDtsPXp2mT6me5cnMRd@nyc1.tmate.io/github.com/allenilkb/openwrt-package.git
+          git clone https://github.com/Lienol/openwrt.git
 #          https://{yourname}:{yourpassword}@github.com/{yourname}/{yourname}.github.io.git
 
 #      - name: 涡轮增雕进程
