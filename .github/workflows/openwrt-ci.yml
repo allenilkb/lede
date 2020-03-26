@@ -65,7 +65,7 @@ jobs:
           cd openwrt-packages
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/Ameykyl/luci-app-koolproxyR
-          git clone https://github.com/Lienol/openwrt-package
+          git clone https://github.com/Lienol/openwrt-package.git
           
 #      - name: 涡轮增雕进程
 #        run: cd openwrt && echo -e "\nsrc-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
@@ -180,6 +180,7 @@ jobs:
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-theme-atmaterial=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
+          CONFIG_PACKAGE_luci-app-passwall=y
           CONFIG_PACKAGE_trojan=y
           # CONFIG_PACKAGE_luci-theme-netgear=y
           EOF
