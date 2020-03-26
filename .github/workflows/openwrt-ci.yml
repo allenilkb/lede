@@ -57,14 +57,16 @@ jobs:
         run: |
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-       - name: 自定义插件主题。
+          
+      - name: 涡轮增雕进程
         run: |
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/Ameykyl/luci-app-koolproxyR
-       - name: Add Passwall
+          
+      - name: 涡轮增雕进程
         run: cd openwrt && echo -e "\nsrc-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
         
       - name: Generate configuration file
